@@ -14,9 +14,9 @@
     <title>London Joseph</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light p-1">
-        <section class="container logo m-lg-1">
+<body class="bg-dark">
+    <nav class="border-bottom navbar navbar-expand-lg sticky-top bg-info">
+        <section class="container-fluid logo">
             <a href="#" class="logo">LJ</a>
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav ml-lg-auto">
@@ -36,47 +36,77 @@
             </div>
         </section>
     </nav>
-    <section class="bg-info p-2 text-light" id="about">
-        <div class="container p-3 ms-auto">
-            <div class="d-lg-flex">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h1 class="logo">London Joseph</h1>
-                        <p class="bio_text">I am an undergraduate student attending Portland
-                            State
-                            University majoring in computer science. I’m a non-traditional student whose interest in
-                            computers and programming was piqued later in life than your average CS major.
-                        </p>
-                        <p class="bio_text" id="extra_bio">Before
-                            shifting
-                            careers I had spent over 10 years in the culinary space working as a cook in the Portland
-                            area.
-                            Though the two fields are worlds apart I value the time spent in my former field and have
-                            found
-                            that the interpersonal skills developed in the restaurant industry have translated well to
-                            the
-                            STEM environment. The ability to work in a team, think critically, solve problems and manage
-                            both time and stress have proven to be great assets as I’ve transitioned into the tech
-                            industry.</p>
+    <section class="border-bottom bg-dark text-light" id="anima">
+        <div class="container-fluid pt-5 canvas_body">
+            <canvas class="canvas1" id="canvas_1">
 
-                        <p class="bio_text">Through my coursework at Portland State, I have developed the technical
-                            skillset required of
-                            a
-                            successful and well-rounded developer. I have gained fluency in high-level languages such as
-                            Java, C++, and Python as well as proficiency in data structures, algorithms, and problem
-                            analysis. I’ve also discovered an interest in data and data analysis and have begun to lean
-                            more
-                            heavily into data science, shifting my curriculum focus to artificial intelligence, machine
-                            learning, and data visualization techniques. Post-graduation, my goal is to find a role
-                            working
-                            with and creating intelligent systems.</p>
+                <script src="./anima.js"></script>
+            </canvas>
+        </div>
+
+    </section>
+    <section class="border-bottom bg-dark p-1 pb-5 pt-5  text-light" id="about">
+        <div class="container-fluid pt-5">
+            <div class="d-lg-flex">
+                <div class="row mx-5 border border-info rounded p-2 bg-info">
+                    <div class="col-lg-8 d-flex ">
+                        <div class="m-auto">
+                            <h1 class="text-center logo">London Joseph</h1>
+                            <p class="bio_text">I am an undergraduate student attending Portland
+                                State
+                                University majoring in computer science. I’m a non-traditional student whose interest in
+                                computers and programming was piqued later in life than your average CS major.
+                            </p>
+                            <p class="text-center bio_text" id="extra_bio">Before
+                                shifting
+                                careers I had spent over 10 years in the culinary space working as a cook in the
+                                Portland
+                                area.
+                                Though the two fields are worlds apart I value the time spent in my former field and
+                                have
+                                found
+                                that the interpersonal skills developed in the restaurant industry have translated well
+                                to
+                                the
+                                STEM environment. The ability to work in a team, think critically, solve problems and
+                                manage
+                                both time and stress have proven to be great assets as I’ve transitioned into the tech
+                                industry.</p>
+
+                            <p class="text-center bio_text">Through my coursework at Portland State, I have developed
+                                the
+                                technical
+                                skillset required of
+                                a
+                                successful and well-rounded developer. I have gained fluency in high-level languages
+                                such as
+                                Java, C++, and Python as well as proficiency in data structures, algorithms, and problem
+                                analysis. I’ve also discovered an interest in data and data analysis and have begun to
+                                lean
+                                more
+                                heavily into data science, shifting my curriculum focus to artificial intelligence,
+                                machine
+                                learning, and data visualization techniques. Post-graduation, my goal is to find a role
+                                working
+                                with and creating intelligent systems.</p>
+                        </div>
                     </div>
-                    <div class="col-lg-6 d-flex">
-                        <img src="./profile-pic3.JPG" alt="woman in her 30's" class=" m-auto rounded" id="profile_pic">
+                    <div class="col-lg-4 d-flex">
+                        <img src="./profile-pic3.JPG" alt="woman in her 30's" class="img-fluid mr-auto rounded"
+                            id="profile_pic">
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="border-bottom bg-light p-1 pt-5 text-light" id="resume">
+        <div class="container-fluid pt-5">
+            <div class="d-lg-grid">
+                <div class="row mx-5 border border-info rounded p-2">
+                </div>
+            </div>
+        </div>
+
     </section>
 
 </body>
