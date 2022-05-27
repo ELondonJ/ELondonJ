@@ -1,33 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Modak&display=swap');
-@media all and (max-width: 500px) {
-    img#profile_pic {
-         width: 300px;
-         height: 400px;
-    }
-    section#anima{
-        display: 'none';
-    }
-}
-@media all and(min-width: 501px) and (max-width: 959px) {
-    img#profile_pic {
-         width: 432px;
-         height: 568px;
-    }
-}
-@media all and (min-width: 960px) {
-    img#profile_pic {
-         width: 432px;
-         height: 568px;
-    }
-}
-@media all and (max-width: 640px) 
-{
-    #extra_bio
-    {
-        display: none;
-    }
-}
 /*
 .navbar{
     background: rgb(114,53,133);
@@ -45,7 +17,7 @@
 .navlink{
     font-family: 'Lato', sans-serif;
     color:whitesmoke;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 600;
 }
 .logo:hover{
@@ -60,13 +32,13 @@
     font-weight: 200;
 }
 #profile_pic{
-    width: 100%;
-    height: 100%
+    width: 80%;
+    height: auto;
 }
 .bio_text{
     color:rgb(243, 238, 244);
     font-family: 'Lato', sans-serif;
-    font-size: large;
+    font-size: 1em;
     font-weight: 500;
 
 }
@@ -77,4 +49,83 @@
     overflow: hidden;
     width: 100%;
 }
+canvas{
+    display: inline;
+}
+#anima_sm{
+    opacity: 1;
+}
 
+span{
+    opacity: .5;
+    transition: all 1s ease;
+    color: rgb(67, 15, 55);
+}
+span.fadin{
+    font-size: 1.5em;
+    opacity: 1;
+    color:white;
+
+}
+ul.education{
+    list-style-type:disc;
+    padding: 1em
+}
+.flex-item{
+    width: 100%;
+    height: 26rem;
+}
+@media (max-width: 500px) {
+    img#profile_pic {
+         width: 300px;
+         height: 400px;
+    }
+    section#anima{
+        display: none;
+    }
+    section#anima_sm{
+        display: block;
+    }
+    .bio_text{
+        font-size: small;
+    }
+}
+@media (min-width: 501px) {
+    section#anima{
+        display: block;
+    }
+    #anima_sm{
+        display: none !important;
+    }
+    img#profile_pic {
+         width: 400px;
+         height: 400px;
+    }
+    .flex-item{
+    width: 98%;
+    height: 18rem;
+    }
+}
+@media(min-width: 501px) and (max-width: 959px) {
+    img#profile_pic {
+         width: 432px;
+         height: 568px;
+    }
+}
+@media all and (min-width: 960px) {
+    img#profile_pic {
+    height: 80%;
+    width: auto;
+    }
+    .flex-item{
+     width: 100%;
+     height: 30rem;
+    }
+}
+@media all and (max-width: 640px) 
+{
+    #extra_bio
+    {
+        display: none;
+    }
+}

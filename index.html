@@ -11,13 +11,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+
     <title>London Joseph</title>
 </head>
 
 <body class="bg-dark">
-    <nav class="border-bottom navbar navbar-expand-lg sticky-top bg-info">
+    <nav class="border-bottom navbar navbar-expand-lg sticky-top bg-info p-0">
         <section class="container-fluid logo">
-            <a href="#" class="logo">LJ</a>
+            <a href="#" class="px-3 logo">LJ</a>
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav ml-lg-auto">
                     <li class="nav-item mx-4">
@@ -36,42 +39,43 @@
             </div>
         </section>
     </nav>
-    <section class="border-bottom bg-dark text-light" id="anima">
-        <div class="container-fluid pt-5 canvas_body">
+    <section class="bg-dark text-light" id="anima">
+        <div class="container-fluid text-center pt-5 canvas_body">
             <canvas class="canvas1" id="canvas_1">
 
-                <script src="./anima.js"></script>
             </canvas>
+            <script src="./anima.js"></script>
+        </div>
+        <div class="container-fluid text-center pt-5 canvas_body">
+            <h1 id="anima_sm">WELCOME</h1>
+            <script src="./sm_anima.js"></script>
         </div>
 
     </section>
-    <section class="border-bottom bg-dark p-1 pb-5 pt-5  text-light" id="about">
-        <div class="container-fluid pt-5">
+    <section class="bg-dark text-light" id="anima_sm">
+        <div class="container-fluid text-center pt-5 canvas_body">
+            <h1>WELCOME</h1>
+            <script src="./sm_anima.js"></script>
+        </div>
+
+    </section>
+
+    <section class="bg-dark py-3 text-light" id="about">
+        <div class="container-fluid px-md-5">
             <div class="d-lg-flex">
-                <div class="row mx-5 border border-info rounded p-2 bg-info">
-                    <div class="col-lg-8 d-flex ">
+                <div class="row flex-row-reverse m-auto p-1 bg-info">
+                    <div class="col-lg-5 d-flex p-2 ">
+                        <img src="./profile-pic3.JPG" alt="woman in her 30's" class="img-fluid m-auto rounded"
+                            id="profile_pic">
+                    </div>
+                    <div class="col-lg-7 d-flex ">
                         <div class="m-auto">
-                            <h1 class="text-center logo">London Joseph</h1>
-                            <p class="bio_text">I am an undergraduate student attending Portland
+                            <h1 class="text-center logo mb-2">London Joseph</h1>
+                            <p class="text-center bio_text">I am an undergraduate student attending Portland
                                 State
                                 University majoring in computer science. I’m a non-traditional student whose interest in
                                 computers and programming was piqued later in life than your average CS major.
                             </p>
-                            <p class="text-center bio_text" id="extra_bio">Before
-                                shifting
-                                careers I had spent over 10 years in the culinary space working as a cook in the
-                                Portland
-                                area.
-                                Though the two fields are worlds apart I value the time spent in my former field and
-                                have
-                                found
-                                that the interpersonal skills developed in the restaurant industry have translated well
-                                to
-                                the
-                                STEM environment. The ability to work in a team, think critically, solve problems and
-                                manage
-                                both time and stress have proven to be great assets as I’ve transitioned into the tech
-                                industry.</p>
 
                             <p class="text-center bio_text">Through my coursework at Portland State, I have developed
                                 the
@@ -91,24 +95,95 @@
                                 with and creating intelligent systems.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex">
-                        <img src="./profile-pic3.JPG" alt="woman in her 30's" class="img-fluid mr-auto rounded"
-                            id="profile_pic">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark" id="resume">
+        <div class="container-fluid px-md-5">
+            <div class="border border-info p-2 ">
+                <h1 class="text-light pl-3 pt-5">Resume</h1>
+                <h6 class="text-secondary pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga fugiat
+                    doloribus
+                    voluptatem! Perferendis
+                    earum nostrum, aliquid veritatis iste fugit magni consequatur, a deleniti natus, unde quod ullam
+                    laudantium aspernatur totam.
+                    Totam earum delectus asperiores neque repudiandae, quia quo eum rerum ipsam cupiditate,
+                    consequuntur, a
+                    ipsa sed commodi illo debitis aut at? Reprehenderit enim reiciendis aspernatur magni asperiores
+                    accusamus aliquid soluta?
+                    Sequi quas obcaecati, nulla fuga optio voluptas ullam repudiandae dignissimos. Esse similique
+                    ratione
+                    quae, aliquid id laudantium corrupti maiores, nesciunt odio suscipit nostrum, praesentium quo earum
+                    recusandae. Soluta, omnis itaque.</h6>
+                <div class="row py-4 text-light d-flex justify-content-around">
+                    <div class="col-sm-12 col-md-12 col-lg-3 m-2">
+                        <div class="card bg-secondary flex-item text-light">
+                            <div class="card-body">
+                                <h2 class=" card-title m-1">Education</h2>
+                                <ul class="education">
+                                    <li>
+                                        <h5 class="card-subtitle">Portland State University</h5>
+                                        <span class="">Expected graduation: June 2023</span><br>
+                                        <span class="card-text">BS Computer Science</span><br>
+                                        <span>GPA: 3.8</span><br>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <h5 class="card-subtitle">Portland Community College</h5>
+                                        <span class="card-text">General Studies</span><br>
+                                        <span>GPA: 3.9</span><br>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 m-2">
+                        <div class="card bg-info flex-item">
+                            <div class="card-body">
+                                <h2 class=" card-title m-1">Education</h2>
+                                <ul class="education">
+                                    <li>
+                                        <h5 class="card-subtitle">Portland State University</h5>
+                                        <span class="">Expected graduation: June 2023</span>
+                                        <span class="card-text">BS Computer Science</span><br>
+                                        <span>GPA: 3.8</span><br>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <h5 class="card-subtitle">Portland Community College</h5>
+                                        <span class="card-text">General Studies</span><br>
+                                        <span>GPA: 3.9</span><br>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 m-2">
+                        <div class="card bg-secondary flex-item">
+                            <div class="card-body">
+                                <h2 class=" card-title m-1">Technical Skills</h2>
+                                <ul class="education">
+                                    <li>
+                                        <h5 class="card-subtitle">Portland State University</h5>
+                                        <span class="">Expected graduation: June 2023</span>
+                                        <span class="card-text">BS Computer Science</span><br>
+                                        <span>GPA: 3.8</span><br>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <h5 class="card-subtitle">Portland Community College</h5>
+                                        <span class="card-text">General Studies</span><br>
+                                        <span>GPA: 3.9</span><br>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="border-bottom bg-light p-1 pt-5 text-light" id="resume">
-        <div class="container-fluid pt-5">
-            <div class="d-lg-grid">
-                <div class="row mx-5 border border-info rounded p-2">
-                </div>
-            </div>
-        </div>
-
-    </section>
-
 </body>
 
 </html>

@@ -1,29 +1,37 @@
+window.onresize = function () {
+  location.reload();
+};
 console.log("hello");
 const canvas = document.getElementById("canvas_1");
 console.log(canvas);
 const ctx = canvas.getContext("2d");
 canvas.style.width = "100%";
 canvas.style.height = "100%";
-canvas.width = canvas.offsetWidth;
-canvas.height = "400";
-console.log(canvas);
+canvas.width = window.innerWidth;
+canvas.height = 400;
+let textSize = "1.9em";
 let particleArray = [];
+let xOffSet = 0;
+let yOffset = 88;
+let rad = canvas.width / 8;
 
 const mouse = {
   x: null,
   y: null,
-  radius: 150,
+  radius: rad,
 };
 
 window.addEventListener("mousemove", (event) => {
-  mouse.x = event.x - 50;
-  mouse.y = event.y - 88;
+  mouse.x = event.x - xOffSet;
+  mouse.y = event.y - yOffset;
   console.log(mouse.x, mouse.y);
 });
 
+$(window).resize(function () {});
+
 ctx.fillStyle = "white";
-ctx.font = "30px Verdana";
-ctx.fillText(" WELCOME ", 0, 30);
+ctx.font = "2.4vw Verdana";
+ctx.fillText("Welcome ", 0, 30);
 const testCoords = ctx.getImageData(0, 0, 200, 100);
 
 class Particle {
@@ -72,6 +80,7 @@ class Particle {
       }
       if (this.x - this.baseX < 1) {
         this.color2 = this.color;
+        this.size = 2;
       }
     }
   }
