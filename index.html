@@ -17,7 +17,13 @@
     <title>London Joseph</title>
 </head>
 
-<body class="bg-dark">
+<body class="bg-light">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
     <nav class="border-bottom navbar navbar-expand-lg sticky-top bg-info p-0">
         <section class="container-fluid logo">
             <a href="#" class="px-3 logo">LJ</a>
@@ -39,8 +45,8 @@
             </div>
         </section>
     </nav>
-    <section class="bg-dark text-light" id="anima">
-        <div class="container-fluid text-center pt-5 canvas_body">
+    <section class="text-light" id="anima">
+        <div class="container-fluid text-center pt-5 canvas_body border border-info bg-dark shadow-lg">
             <canvas class="canvas1" id="canvas_1">
 
             </canvas>
@@ -60,12 +66,12 @@
 
     </section>
 
-    <section class="bg-dark py-3 text-light" id="about">
-        <div class="container-fluid px-md-5">
+    <section class="bg-info py-3 text-light" id="about">
+        <div class="container-fluid px-md-5 ">
             <div class="d-lg-flex">
                 <div class="row flex-row-reverse m-auto p-1 bg-info">
                     <div class="col-lg-5 d-flex p-2 ">
-                        <img src="./profile-pic3.JPG" alt="woman in her 30's" class="img-fluid m-auto rounded"
+                        <img src="./profile-pic3.JPG" alt="woman in her 30's" class="img-fluid m-auto rounded shadow"
                             id="profile_pic">
                     </div>
                     <div class="col-lg-7 d-flex ">
@@ -100,8 +106,8 @@
         </div>
     </section>
     <section class="bg-dark" id="resume">
-        <div class="container-fluid px-md-5">
-            <div class="border border-info p-2 ">
+        <div class="container-fluid p-5 ">
+            <div class="border border-info p-2 bg-dark shadow">
                 <h1 class="text-light pl-3 pt-5">Resume</h1>
                 <h6 class="text-secondary pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga fugiat
                     doloribus
@@ -118,7 +124,7 @@
                     recusandae. Soluta, omnis itaque.</h6>
                 <div class="row py-4 text-light d-flex justify-content-around">
                     <div class="col-sm-12 col-md-12 col-lg-3 m-2">
-                        <div class="card bg-secondary flex-item text-light">
+                        <div class="card bg-secondary flex-item text-light shadow-lg m-auto">
                             <div class="card-body">
                                 <h2 class=" card-title m-1">Education</h2>
                                 <ul class="education">
@@ -139,7 +145,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 m-2">
-                        <div class="card bg-info flex-item">
+                        <div class="card bg-info flex-item shadow-lg m-auto">
                             <div class="card-body">
                                 <h2 class=" card-title m-1">Education</h2>
                                 <ul class="education">
@@ -160,7 +166,7 @@
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-3 m-2">
-                        <div class="card bg-secondary flex-item">
+                        <div class="card bg-secondary flex-item shadow-lg m-auto">
                             <div class="card-body">
                                 <h2 class=" card-title m-1">Technical Skills</h2>
                                 <ul class="education">
@@ -181,6 +187,42 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-info py-3 text-light" id="projects">
+        <div class="container-fluid px-md-5 ">
+            <h1 class="text-light p-4 row">Projects</h1>
+            <div id="carouselExampleIndicators" class="row carousel slide m-auto p-0 col-12" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="border-0 active " aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        class="border-0" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        class="border-0" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner bg-info">
+                    <div class="carousel-item car-img-1 active d-flex">
+                        <h1 class="m-auto">Project 1</h1>
+                    </div>
+                    <div class="carousel-item car-img-2 ">
+                        <div class="container-block d-flex car-container">
+                            <h1>Project 2</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev bg-transparent border-0" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next bg-transparent border-0" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
             </div>
         </div>
     </section>

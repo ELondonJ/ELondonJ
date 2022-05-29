@@ -8,7 +8,7 @@ const ctx = canvas.getContext("2d");
 canvas.style.width = "100%";
 canvas.style.height = "100%";
 canvas.width = window.innerWidth;
-canvas.height = 400;
+canvas.height = canvas.width / 3;
 let textSize = "1.9em";
 let particleArray = [];
 let xOffSet = 0;
@@ -30,15 +30,15 @@ window.addEventListener("mousemove", (event) => {
 $(window).resize(function () {});
 
 ctx.fillStyle = "white";
-ctx.font = "2.4vw Verdana";
-ctx.fillText("Welcome ", 0, 30);
-const testCoords = ctx.getImageData(0, 0, 200, 100);
+ctx.font = "2.6vw Verdana";
+ctx.fillText("Welcome ", 0, canvas.width / 40);
+const testCoords = ctx.getImageData(0, 0, 240, 100);
 
 class Particle {
   constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.size = 2;
+    this.size = 1;
     this.baseX = this.x;
     this.baseY = this.y;
     this.density = Math.random() * 40 + 5;
@@ -94,7 +94,7 @@ function init() {
       if (testCoords.data[y * 4 * testCoords.width + x * 4 + 3] > 128) {
         let postionX = x;
         let postionY = y;
-        particleArray.push(new Particle(postionX * 9, postionY * 10));
+        particleArray.push(new Particle(postionX * 8.5, postionY * 10));
       }
     }
   }
