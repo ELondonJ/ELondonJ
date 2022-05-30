@@ -123,8 +123,6 @@ ul.education{
     }
 
 @media (max-width: 575.98px) {
-    #anima{
-    }
     .bio_text{
         font-size: small;
     }
@@ -172,7 +170,7 @@ ul.education{
     width: auto;
     }
     .flex-item{
-     width: 100%;
+     width: 90%;
      height: 30rem;
     }
     .slide-text-lg{
