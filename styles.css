@@ -76,43 +76,77 @@ ul.education{
     width: 100%;
     height: 26rem;
 }
-.carousel-item{
+.c1arousel-item{
     background-color: transparent; /* Used if the image is unavailable */
-    height: 500px; /* You must set a specified height */
+    max-height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: contain; /* Resize the background image to cover the entire container */
+    background-size:auto; /* Resize the background image to cover the entire container */
   }
-  .car-img-1{
-      background-image: url("mount-hood-72366_1280.jpg");
-  }
-  .car-img-2{
-      background-image: url("mount-69615_1920.jpg");
-  }
-.car-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
+.carousel-item{
+    height:30rem;
+    background: black;
+    background-position: center;
+    background-size: cover;
+}
+.car-item-1{
+    background-image: url("/light-2565575_1920.jpg");
 
 }
+.car-item-2{
+    background: black;
+    background-image: url("/app_pic2.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+    background-position: right 30%;
 
-@media (max-width: 500px) {
+}
+.car-item-3{
+    background-image: url("/mount-hood-72366_1280.jpg");
+
+}
+.slide-text-lg{
+    font-size: 8rem;
+    color: rgb(245, 222, 179);
+    opacity: 1;
+}
+.project-info{
+        max-width: 20rem
+    }
+
+@media (max-width: 575.98px) {
     img#profile_pic {
          width: 300px;
          height: 400px;
     }
     section#anima{
         display: none;
-    }
-    section#anima_sm{
+   
+   
         display: block;
     }
     .bio_text{
         font-size: small;
     }
+    .slide-text-lg{
+        font-size: 4rem;
+        opacity: 1;
+    }
+    .project-info{
+        max-width: 14rem;
+        font-size: .8em;
+    }
+.car-item-2{
+    background-size: cover;
+    background-position-x: 58%;
+    
+
 }
-@media (min-width: 501px) {
+}
+@media (max-width: 767.98px) { 
+
+}
+@media (max-width: 991.98px)  {
     section#anima{
         display: block;
     }
@@ -120,23 +154,21 @@ ul.education{
         display: none !important;
     }
     img#profile_pic {
-         width: 400px;
-         height: 400px;
+         width: 432px;
+         height: 568px;
     }
     .flex-item{
     width: 98%;
     height: 18rem;
     }
-}
-
-
-@media(min-width: 501px) and (max-width: 959px) {
-    img#profile_pic {
-         width: 432px;
-         height: 568px;
+    .slide-text-lg{
+        font-size: 6rem;
+        opacity: 1;
     }
 }
-@media all and (min-width: 960px) {
+
+
+@media all and (min-width: 992px) {
     img#profile_pic {
     height: 80%;
     width: auto;
@@ -144,6 +176,13 @@ ul.education{
     .flex-item{
      width: 100%;
      height: 30rem;
+    }
+    .slide-text-lg{
+        font-size: 10rem;
+        opacity: 1;
+    }
+    .project-info{
+        max-width: 30rem
     }
 }
 @media all and (max-width: 640px) 
