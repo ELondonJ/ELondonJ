@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Modak&display=swap');
+/*
+.navbar{
+    background: rgb(114,53,133);
+    background: linear-gradient(207deg, rgba(114,53,133,0.5522730210248161) 0%, rgba(44,88,51,0.5494719005766369) 100%);
+}
+*/
+.navbar-nav{
+    margin-left: auto;
+    
+}
+.logo{
+    color: rgb(78, 15, 78);
+    font-family: 'Modak', cursive;
+    font-size:xxx-large;
+}
+.navlink{
+    font-family: 'Lato', sans-serif;
+    color:whitesmoke;
+    font-size: x-large;
+    font-weight: 600;
+}
+.logo:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.navlink:hover{
+    color: rgb(78, 15, 78);
+    text-decoration: none;
+    font-family: 'Modak', cursive;
+    font-size:xxx-large;
+    font-weight: 200;
+}
+#profile_pic{
+    width: 80%;
+    height: auto;
+}
+.bio_text{
+    color:rgb(243, 238, 244);
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+
+}
+.sect_bord{
+    border-width: 10px;
+}
+.canvas_body{
+    overflow: hidden;
+    width: 100%;
+}
+canvas{
+    display: inline;
+}
+#anima_sm{
+    opacity: 1;
+}
+
+span{
+    opacity: .5;
+    transition: all 1s ease;
+    color: rgb(67, 15, 55);
+}
+span.fadin{
+    font-size: 1.5em;
+    opacity: 1;
+    color:white;
+
+}
+ul.education{
+    list-style-type:disc;
+    padding: 1em
+}
+.flex-item{
+    width: 100%;
+    height: 26rem;
+}
+.c1arousel-item{
+    background-color: transparent; /* Used if the image is unavailable */
+    max-height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:auto; /* Resize the background image to cover the entire container */
+  }
+.carousel-item{
+    height:30rem;
+    background: black;
+    background-position: center;
+    background-size: cover;
+}
+.car-item-1{
+    background-image: url("/light-2565575_1920.jpg");
+
+}
+.car-item-2{
+    background: black;
+    background-image: url("/app_pic2.png");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+    background-position: right 30%;
+
+}
+.car-item-3{
+    background-image: url("/mount-hood-72366_1280.jpg");
+
+}
+.slide-text-lg{
+    font-size: 8rem;
+    color: rgb(245, 222, 179);
+    opacity: 1;
+}
+.project-info{
+        max-width: 20rem
+    }
+
+@media (max-width: 575.98px) {
+    img#profile_pic {
+         width: 300px;
+         height: 400px;
+    }
+    section#anima{
+        display: none;
+   
+   
+        display: block;
+    }
+    .bio_text{
+        font-size: small;
+    }
+    .slide-text-lg{
+        font-size: 4rem;
+        opacity: 1;
+    }
+    .project-info{
+        max-width: 14rem;
+        font-size: .8em;
+    }
+.car-item-2{
+    background-size: cover;
+    background-position-x: 58%;
+    
+
+}
+}
+@media (max-width: 767.98px) { 
+
+}
+@media (max-width: 991.98px)  {
+    section#anima{
+        display: block;
+    }
+    #anima_sm{
+        display: none !important;
+    }
+    img#profile_pic {
+         width: 432px;
+         height: 568px;
+    }
+    .flex-item{
+    width: 98%;
+    height: 18rem;
+    }
+    .slide-text-lg{
+        font-size: 6rem;
+        opacity: 1;
+    }
+}
+
+
+@media all and (min-width: 992px) {
+    img#profile_pic {
+    height: 80%;
+    width: auto;
+    }
+    .flex-item{
+     width: 100%;
+     height: 30rem;
+    }
+    .slide-text-lg{
+        font-size: 10rem;
+        opacity: 1;
+    }
+    .project-info{
+        max-width: 30rem
+    }
+}
+@media all and (max-width: 640px) 
+{
+    #extra_bio
+    {
+        display: none;
+    }
+}
