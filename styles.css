@@ -124,7 +124,6 @@ ul.education{
 
 @media (max-width: 575.98px) {
     #anima{
-        display: none;
     }
     .bio_text{
         font-size: small;
