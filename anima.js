@@ -1,9 +1,11 @@
-if (window.innerWidth < 576) {
-  let section = document.getElementById("anima");
-  section.remove();
-}
 window.onresize = function () {
-  location.reload();
+  if (window.innerWidth < 576) {
+    let section = document.getElementById("anima");
+    section.remove();
+  } else {
+    location.reload();
+    l;
+  }
 };
 console.log("hello");
 const canvas = document.getElementById("canvas_1");
