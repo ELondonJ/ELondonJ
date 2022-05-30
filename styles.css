@@ -6,6 +6,9 @@
     background: linear-gradient(207deg, rgba(114,53,133,0.5522730210248161) 0%, rgba(44,88,51,0.5494719005766369) 100%);
 }
 */
+#anima{
+    display:block;
+}
 .navbar-nav{
     margin-left: auto;
     
@@ -27,10 +30,10 @@
 }
 .navlink:hover{
     color: rgb(78, 15, 78);
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
-    font-family: 'Modak', cursive;
-    font-size:xxx-large;
-    font-weight: 200;
+    font-size: x-large;
+    font-weight: bold;
 }
 #profile_pic{
     width: 80%;
@@ -91,6 +94,7 @@ ul.education{
 }
 .car-item-1{
     background-image: url("/light-2565575_1920.jpg");
+    background-position-y: 70%;
 
 }
 .car-item-2{
@@ -106,24 +110,21 @@ ul.education{
 
 }
 .slide-text-lg{
-    font-size: 8rem;
-    color: rgb(245, 222, 179);
-    opacity: 1;
+    color: wheat;
+    
+    opacity: .9;
+    z-index: 1;
+    position: absolute;
+    bottom: 2rem;
+    left: 4rem;
 }
 .project-info{
         max-width: 20rem
     }
 
 @media (max-width: 575.98px) {
-    img#profile_pic {
-         width: 300px;
-         height: 400px;
-    }
-    section#anima{
+    #anima{
         display: none;
-   
-   
-        display: block;
     }
     .bio_text{
         font-size: small;
@@ -131,12 +132,13 @@ ul.education{
     .slide-text-lg{
         font-size: 4rem;
         opacity: 1;
+        
     }
     .project-info{
         max-width: 14rem;
-        font-size: .8em;
+        font-size: small;
     }
-.car-item-2{
+    .car-item-2{
     background-size: cover;
     background-position-x: 58%;
     
@@ -146,10 +148,7 @@ ul.education{
 @media (max-width: 767.98px) { 
 
 }
-@media (max-width: 991.98px)  {
-    section#anima{
-        display: block;
-    }
+@media (min-width: 576px)and(max-width: 991.98px)  {
     #anima_sm{
         display: none !important;
     }
@@ -179,7 +178,6 @@ ul.education{
     }
     .slide-text-lg{
         font-size: 10rem;
-        opacity: 1;
     }
     .project-info{
         max-width: 30rem
