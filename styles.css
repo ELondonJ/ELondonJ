@@ -121,13 +121,21 @@ ul.education{
 .project-info{
         max-width: 20rem
     }
+.contact-container{
+    width: 75%;
+}
+#contactMessage{
+    height: 8rem;
+}
 
-@media (max-width: 575.98px) {
+@media (max-width: 575px) {
     .bio_text{
         font-size: small;
     }
     .slide-text-lg{
-        font-size: 4rem;
+        font-size: 3.8rem;
+        left: 1rem;
+        bottom: 4rem;
         opacity: 1;
         
     }
@@ -138,14 +146,18 @@ ul.education{
     .car-item-2{
     background-size: cover;
     background-position-x: 58%;
-    
-
-}
+    }
+    .contact-container{
+        width: 95%;
+    }
+    .navbar-toggler-icon{
+        background-color: white;
+    }
 }
 @media (max-width: 767.98px) { 
 
 }
-@media (min-width: 576px)and(max-width: 991.98px)  {
+@media (min-width: 576px) and (max-width: 991px)  {
     #anima_sm{
         display: none !important;
     }
@@ -154,17 +166,20 @@ ul.education{
          height: 568px;
     }
     .flex-item{
-    width: 98%;
-    height: 18rem;
+        width: 98%;
+        height: 18rem;
     }
     .slide-text-lg{
         font-size: 6rem;
         opacity: 1;
     }
+    .contact-container{
+        width: 95%;
+    }
 }
 
 
-@media all and (min-width: 992px) {
+@media (min-width: 992px) {
     img#profile_pic {
     height: 80%;
     width: auto;
