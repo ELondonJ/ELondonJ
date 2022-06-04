@@ -39,7 +39,7 @@ The resume section summerizes my relevant course work and technical skill set. T
 #### Projects
 The projects section displays previous projects in a carousel slider.  The slider was built with Bootstrap classes and operated utilizing the Boostrap JavaScript bundle. 
 #### Contact
-The contact section takes was built with Bootstrap form classes.
+The contact section takes was built with Bootstrap form classes. Messages sent from form to my email via [Formsubmit.co](https://formsubmit.co/)
 
 ## Resources
 Bootstrap 5/Bootstrap JavaScript bundle \
