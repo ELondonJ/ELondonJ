@@ -71,20 +71,18 @@ span.fadin{
     color:white;
 
 }
-ul.education{
+.card ul{
     list-style-type:disc;
-    padding: 1em
+    padding: 1.5em
 }
 .flex-item{
-    width: 100%;
-    height: 26rem;
 }
 .c1arousel-item{
-    background-color: transparent; /* Used if the image is unavailable */
-    max-height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size:auto; /* Resize the background image to cover the entire container */
+    background-color: transparent; 
+    max-height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size:auto; 
   }
 .carousel-item{
     height:30rem;
@@ -100,7 +98,7 @@ ul.education{
 .car-item-2{
     background: black;
     background-image: url("/app_pic2.png");
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-repeat: no-repeat; 
     background-size: contain;
     background-position: right 30%;
 
@@ -127,6 +125,23 @@ ul.education{
 #contactMessage{
     height: 8rem;
 }
+#quote-header{
+    color: white;
+    font-family: Segoe Script;
+    font-size: small;
+
+
+}
+.card img{
+    max-width: 6rem;
+    
+
+}
+.card li{
+    color: white;
+    font-size: medium;
+    margin-bottom: .5rem;
+}
 
 @media (max-width: 575px) {
     .bio_text{
@@ -144,14 +159,17 @@ ul.education{
         font-size: small;
     }
     .car-item-2{
-    background-size: cover;
-    background-position-x: 58%;
+        background-size: cover;
+        background-position-x: 58%;
     }
     .contact-container{
         width: 95%;
     }
     .navbar-toggler-icon{
         background-color: white;
+    }
+    .card img{
+        max-width: 4rem;
     }
 }
 @media (max-width: 767.98px) { 
@@ -175,6 +193,9 @@ ul.education{
     }
     .contact-container{
         width: 95%;
+    }
+    .card img{
+        max-width: 8rem;
     }
 }
 

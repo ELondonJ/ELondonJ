@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../styles.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
     </script>
+    <script defer src="quotes.js"></script>
 
     <title>London Joseph</title>
 </head>
@@ -87,10 +88,10 @@
         </div>
     </section>
     <section class="bg-dark py-5" id="resume">
-        <div class="container-fluid p-sm-2p-md-5  ">
+        <div class="container-fluid p-sm-2 p-md-5  ">
             <div class="border border-info p-2 bg-dark shadow">
-                <h1 class="text-light pl-3 pt-5">Resume</h1>
-                <h6 class="text-secondary pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga fugiat
+                <h2 class="text-light pl-3 pt-5">Resume</h2>
+                <h6 class="text-light pl-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga fugiat
                     doloribus
                     voluptatem! Perferendis
                     earum nostrum, aliquid veritatis iste fugit magni consequatur, a deleniti natus, unde quod ullam
@@ -105,44 +106,88 @@
                     recusandae. Soluta, omnis itaque.</h6>
                 <div class="row py-4 text-light d-flex justify-around ">
                     <div class="col-sm-12 col-md-12 col-lg-4 my-3">
-                        <div class="card bg-success flex-item text-light shadow-lg m-auto">
-                            <div class="card-body">
-                                <h2 class=" card-title m-1">Education</h2>
-                                <ul class="education">
-                                    <li>
-                                        <h5 class="card-subtitle">Portland State University</h5>
-                                        <span class="">Expected graduation: June 2023</span><br>
-                                        <span class="card-text">BS Computer Science</span><br>
-                                        <span>GPA: 3.8</span><br>
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <h5 class="card-subtitle">Portland Community College</h5>
-                                        <span class="card-text">General Studies</span><br>
-                                        <span>GPA: 3.9</span><br>
-                                    </li>
-                                </ul>
+                        <div class="card bg-info flex-item text-light h-100 shadow-lg m-auto">
+                            <div class="card-body row">
+                                <div class="col-sm-12 col-md-8 col-lg-12">
+                                    <h3 class=" card-title m-1">Education</h3>
+                                    <ul class="education">
+                                        <li>
+                                            <h5 class="card-subtitle">Portland State University</h5>
+                                            <span>Expected graduation: June 2023</span><br>
+                                            <span class="card-text">BS Computer Science</span><br>
+                                            <span>GPA: 3.8</span><br>
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <h5 class="card-subtitle">Portland Community College</h5>
+                                            <span class="card-text">General Studies</span><br>
+                                            <span>GPA: 3.9</span><br>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-12 d-flex">
+                                    <img src="/book-edu.png" class="card-img-top m-auto" alt="...">
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-4 my-3">
-                        <div class="card bg-warning flex-item shadow-lg m-auto">
-                            <div class="card-body">
-                                <h2 class=" card-title m-1">Technical Skills</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, enim. Unde,
-                                    nesciunt in reprehenderit quae consectetur fugit eius maiores facere? Enim dicta
-                                    eaque doloribus repellat possimus vero est, fugit temporibus!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-4 my-3">
-                        <div class="card bg-danger flex-item shadow-lg m-auto">
-                            <div class="card-body">
-                                <h2 class=" card-title m-1">Soft Skills</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt quos maiores corporis
-                                    libero iure omnis quasi totam sapiente? Laboriosam pariatur nostrum dignissimos
-                                    maxime aut est accusamus saepe illum minus obcaecati!</p>
 
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 my-3">
+                        <div class="card bg-secondary h-100 flex-item shadow-lg m-auto">
+                            <div class="card-body row">
+                                <div class="col-sm-12 col-md-8 col-lg-12">
+                                    <h3 class=" card-title ">Technical Skills</h3>
+                                    <ul class="tech-skills">
+                                        <li>
+                                            Java, C++, Python, JavaScript
+
+                                        </li>
+                                        <li>
+                                            Agile/Scrum
+                                        </li>
+                                        <li>
+                                            VSCode, Android Studio, IntelliJ
+                                        </li>
+                                        <li>
+                                            GitHub
+                                        </li>
+                                        <li>
+                                            REST API's </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-12 d-flex">
+                                    <img src="/pngaaa.com-5078091.png" class="card-img-top m-auto" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 my-3">
+                        <div class="card bg-info flex-item h-100 shadow-lg m-auto">
+                            <div class="card-body row">
+                                <div class="col-sm-12 col-md-8 col-lg-12">
+                                    <h3 class=" card-title m-1">Soft Skills</h3>
+                                    <ul class="tech-skills">
+                                        <li>
+                                            Management/Leadership experience
+                                        </li>
+                                        <li>
+                                            Time management
+                                        </li>
+                                        <li>
+                                            Flexablity
+                                        </li>
+                                        <li>
+                                            Problem solving
+                                        </li>
+                                        <li>
+                                            Communication
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-12 d-flex">
+                                    <img src="/pngkey.com-skills-icon-png-3463239.png" class="card-img-top m-auto"
+                                        alt="...">
+                                </div>
                             </div>
                         </div>
                     </div>
