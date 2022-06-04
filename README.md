@@ -43,7 +43,7 @@ The contact section takes was built with Bootstrap form classes.
 
 ### Resources
 Bootstrap 5/Bootstrap JavaScript bundle\
-    (https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+    (https://getbootstrap.com/docs/5.2/getting-started/introduction/)\
 Franks Labratory "Vanilla JavaScript Text Animation Tutorial"\
-    (https://www.youtube.com/watch?v=XGioNBHrFU4)
+    (https://www.youtube.com/watch?v=XGioNBHrFU4)\
 
