@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 # Personal Website
-#### Author: London Joseph
+##### Author: London Joseph
 
 This web page is the final project for the CS410 Intro to Web Developement at
 Portland State University.  The site utilizes a single-page layout with a navigation
@@ -34,3 +34,9 @@ a tutorial by [Franks Laboratory](https://www.youtube.com/watch?v=XGioNBHrFU4) f
 ### About
 The about section has a short bio and picture of myself. This section uses a combination of custom CSS and
 Boostrap for formatting and design. 
+### Resume
+The resume section summerizes my relevant course work and technical skill set. This section uses a combination of custom CSS and Boostrap for formatting and design.
+### Projects
+The projects section displays previous projects in a carousel slider.  The slider was built with Bootstrap classes and operated utilizing the Boostrap JavaScript bundle. 
+### Contact
+The contact section takes was built with Bootstrap form classes.
