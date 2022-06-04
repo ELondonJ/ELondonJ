@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Modak&display=swap');
-/*
-.navbar{
-    background: rgb(114,53,133);
-    background: linear-gradient(207deg, rgba(114,53,133,0.5522730210248161) 0%, rgba(44,88,51,0.5494719005766369) 100%);
-}
-*/
+
 #anima{
     display:block;
 }
@@ -44,7 +39,6 @@
     font-family: 'Lato', sans-serif;
     font-size: 1em;
     font-weight: 500;
-
 }
 .sect_bord{
     border-width: 10px;
@@ -59,23 +53,9 @@ canvas{
 #anima_sm{
     opacity: 1;
 }
-
-span{
-    opacity: .5;
-    transition: all 1s ease;
-    color: rgb(67, 15, 55);
-}
-span.fadin{
-    font-size: 1.5em;
-    opacity: 1;
-    color:white;
-
-}
 .card ul{
     list-style-type:disc;
     padding: 1.5em
-}
-.flex-item{
 }
 .c1arousel-item{
     background-color: transparent; 
@@ -91,7 +71,7 @@ span.fadin{
     background-size: cover;
 }
 .car-item-1{
-    background-image: url("/light-2565575_1920.jpg");
+    background-image: url("/projects-light.jpg");
     background-position-y: 70%;
 
 }
@@ -101,7 +81,6 @@ span.fadin{
     background-repeat: no-repeat; 
     background-size: contain;
     background-position: right 30%;
-
 }
 .car-item-3{
     background-image: url("/mount-hood-72366_1280.jpg");
@@ -109,7 +88,6 @@ span.fadin{
 }
 .slide-text-lg{
     color: wheat;
-    
     opacity: .9;
     z-index: 1;
     position: absolute;
@@ -117,8 +95,8 @@ span.fadin{
     left: 4rem;
 }
 .project-info{
-        max-width: 20rem
-    }
+    max-width: 20rem
+}
 .contact-container{
     width: 75%;
 }
@@ -134,8 +112,6 @@ span.fadin{
 }
 .card img{
     max-width: 6rem;
-    
-
 }
 .card li{
     color: white;
@@ -144,6 +120,9 @@ span.fadin{
 }
 
 @media (max-width: 575px) {
+    #extra_bio{
+        display: none;
+    }
     .bio_text{
         font-size: small;
     }
@@ -152,7 +131,6 @@ span.fadin{
         left: 1rem;
         bottom: 4rem;
         opacity: 1;
-        
     }
     .project-info{
         max-width: 14rem;
@@ -172,9 +150,6 @@ span.fadin{
         max-width: 6rem;
     }
 }
-@media (max-width: 767.98px) { 
-
-}
 @media (min-width: 576px) and (max-width: 991px)  {
     #anima_sm{
         display: none !important;
@@ -182,10 +157,6 @@ span.fadin{
     img#profile_pic {
          width: 432px;
          height: 568px;
-    }
-    .flex-item{
-        width: 98%;
-        height: 18rem;
     }
     .slide-text-lg{
         font-size: 6rem;
@@ -195,11 +166,9 @@ span.fadin{
         width: 95%;
     }
     .card img{
-        max-width: 8rem;
+        max-width: 10rem;
     }
 }
-
-
 @media (min-width: 992px) {
     img#profile_pic {
     height: 80%;
@@ -214,12 +183,5 @@ span.fadin{
     }
     .project-info{
         max-width: 30rem
-    }
-}
-@media all and (max-width: 640px) 
-{
-    #extra_bio
-    {
-        display: none;
     }
 }
