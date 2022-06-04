@@ -14,3 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+# Personal Website
+#### Author: London Joseph
+
+This web page is the final project for the CS410 Intro to Web Developement at
+Portland State University.  The site utilizes a single-page layout with a navigation
+bar at the top and about, resume, project and contact sections. 
+
+
