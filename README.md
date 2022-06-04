@@ -1,4 +1,4 @@
-### Hi there 👋
+
 
 <!--
 **ELondonJ/ELondonJ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -24,7 +24,7 @@ bar at the top and about, resume, project and contact sections.
 
 The site is built using CSS, HTML, Boostrap and JavaScript.  
 
-###### Navbar
+##### Navbar
 The navigation bar is built Boostrap classes and the Boostrap JavaScript bundle were used 
 for the navbar. The navbar also uses the google font [Modak](https://fonts.google.com/specimen/Modak?thickness=10)
 for the logo.
@@ -40,3 +40,10 @@ The resume section summerizes my relevant course work and technical skill set. T
 The projects section displays previous projects in a carousel slider.  The slider was built with Bootstrap classes and operated utilizing the Boostrap JavaScript bundle. 
 ##### Contact
 The contact section takes was built with Bootstrap form classes.
+
+### Resources
+Bootstrap 5/Bootstrap JavaScript bundle
+    (https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+Franks Labratory "Vanilla JavaScript Text Animation Tutorial"
+    (https://www.youtube.com/watch?v=XGioNBHrFU4)
+
