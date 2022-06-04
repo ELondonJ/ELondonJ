@@ -42,8 +42,8 @@ The projects section displays previous projects in a carousel slider.  The slide
 The contact section takes was built with Bootstrap form classes.
 
 ### Resources
-Bootstrap 5/Bootstrap JavaScript bundle
+Bootstrap 5/Bootstrap JavaScript bundle\
     (https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-Franks Labratory "Vanilla JavaScript Text Animation Tutorial"
+Franks Labratory "Vanilla JavaScript Text Animation Tutorial"\
     (https://www.youtube.com/watch?v=XGioNBHrFU4)
 
