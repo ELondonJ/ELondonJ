@@ -22,4 +22,12 @@ This web page is the final project for the CS410 Intro to Web Developement at
 Portland State University.  The site utilizes a single-page layout with a navigation
 bar at the top and about, resume, project and contact sections. 
 
+The site is built using CSS, HTML, Boostrap and JavaScript.  
+
+### Navbar
+The navigation bar is built Boostrap classes and the Boostrap JavaScript bundle were used 
+for the navbar. 
+### Animation
+On large and medium screen an interactive partical animation is displayed.  I followed
+a tutorial by [Franks Laboratory](https://www.youtube.com/watch?v=XGioNBHrFU4) for the animation.
 
