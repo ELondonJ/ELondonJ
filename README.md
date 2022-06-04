@@ -26,8 +26,11 @@ The site is built using CSS, HTML, Boostrap and JavaScript.
 
 ### Navbar
 The navigation bar is built Boostrap classes and the Boostrap JavaScript bundle were used 
-for the navbar. 
+for the navbar. The navbar also uses the google font [Modak](https://fonts.google.com/specimen/Modak?thickness=10)
+for the logo.
 ### Animation
 On large and medium screen an interactive partical animation is displayed.  I followed
 a tutorial by [Franks Laboratory](https://www.youtube.com/watch?v=XGioNBHrFU4) for the animation.
-
+### About
+The about section has a short bio and picture of myself. This section uses a combination of custom CSS and
+Boostrap for formatting and design. 
