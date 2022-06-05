@@ -83,7 +83,12 @@ canvas{
     background-position: right 30%;
 }
 .car-item-3{
-    background-image: url("/mount-hood-72366_1280.jpg");
+    background: black ;
+    background-image: url("/website-prog.png");
+    background-size: contain;
+    background-position-x: 100%;
+    background-repeat: no-repeat; 
+    
 
 }
 .slide-text-lg{
@@ -118,13 +123,16 @@ canvas{
     font-size: medium;
     margin-bottom: .8rem;
 }
+.overlay{
+    color: white;
+}
 
 @media (max-width: 575px) {
     #extra_bio{
         display: none;
     }
     .bio_text{
-        font-size: small;
+        font-size: medium;
     }
     .slide-text-lg{
         font-size: 3.8rem;
@@ -138,7 +146,7 @@ canvas{
     }
     .car-item-2{
         background-size: cover;
-        background-position-x: 58%;
+        background-position-x: 70%;
     }
     .contact-container{
         width: 95%;
@@ -148,6 +156,14 @@ canvas{
     }
     .card img{
         max-width: 6rem;
+    }
+    .car-item-3{
+        background-size: cover;
+        background-position-x: 85%;
+    }
+    .overlay{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.6);
     }
 }
 @media (min-width: 576px) and (max-width: 991px)  {
@@ -167,6 +183,10 @@ canvas{
     }
     .card img{
         max-width: 10rem;
+    }
+    .car-item-3{
+        background-size: cover;
+        background-position-x: 68%;
     }
 }
 @media (min-width: 992px) {
