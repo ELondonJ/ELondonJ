@@ -38,7 +38,7 @@
     color:rgb(243, 238, 244);
     font-family: 'Lato', sans-serif;
     font-size: 1em;
-    font-weight: 500;
+    font-weight: bold;
 }
 .sect_bord{
     border-width: 10px;
@@ -125,6 +125,9 @@ canvas{
 }
 .overlay{
     color: white;
+}
+.fst-italic{
+    font-style: italic;
 }
 
 @media (max-width: 575px) {
