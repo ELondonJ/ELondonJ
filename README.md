@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=XGioNBHrFU4)
 https://www.youtube.com/watch?v=4sosXZsdy-s&t=839s
 - Carousel Slider Bootstrap 5 | Slider Carousel Tutorial\
 https://www.youtube.com/watch?v=ku_97a6Bgkg
-- FormSubmit/
+- FormSubmit\
 https://formsubmit.co/
-- Quotes api/
+- Quotes api\
 https://type.fit/api/quotes
