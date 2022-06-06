@@ -1,23 +1,7 @@
 
-
-<!--
-**ELondonJ/ELondonJ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 # Personal Website
 ##### Author: London Joseph
-
+##### Deployed at https://elondonj.github.io/
 This web page is the final project for the CS410 Intro to Web Developement at
 Portland State University.  The site utilizes a single-page layout with a navigation
 bar at the top and about, resume, project and contact sections. 
@@ -43,11 +27,19 @@ The contact section takes was built with Bootstrap form classes. Messages sent f
 #### Footer
 A small footer with a randomly selected insirational quote. Quotes are sourced from (https://type.fit/api/quotes) api.  Quotes.js contains the code for fetching from the api. 
 
-## Resources
+
+## References
 - Bootstrap 5/Bootstrap JavaScript bundle \
 https://getbootstrap.com/docs/5.2/getting-started/introduction/) 
 - Franks Labratory "Vanilla JavaScript Text Animation Tutorial" \
 https://www.youtube.com/watch?v=XGioNBHrFU4) 
 - Code with Ania Kubow "Send emails from a HTML Conact Form"\
 (https://www.youtube.com/watch?v=r4RQ38EoLds)
-
+- Navbar portion from Bootsrap 5 crash course\
+https://www.youtube.com/watch?v=4sosXZsdy-s&t=839s
+- Carousel Slider Bootstrap 5 | Slider Carousel Tutorial\
+https://www.youtube.com/watch?v=ku_97a6Bgkg
+- FormSubmit/
+https://formsubmit.co/
+- Quotes api/
+https://type.fit/api/quotes
