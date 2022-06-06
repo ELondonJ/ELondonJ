@@ -120,7 +120,7 @@ canvas{
 }
 .card li{
     color: white;
-    font-size: medium;
+    font-size: large;
     margin-bottom: .8rem;
 }
 .overlay{
@@ -191,6 +191,9 @@ canvas{
         background-size: cover;
         background-position-x: 68%;
     }
+    .card li{
+    font-size: x-large;
+}
 }
 @media (min-width: 992px) {
     img#profile_pic {
