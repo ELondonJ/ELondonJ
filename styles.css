@@ -35,9 +35,9 @@
     height: auto;
 }
 .bio_text{
-    color:rgb(243, 238, 244);
+    color: whitesmoke;
     font-family: 'Lato', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: bold;
 }
 .sect_bord{
@@ -88,8 +88,6 @@ canvas{
     background-size: contain;
     background-position-x: 100%;
     background-repeat: no-repeat; 
-    
-
 }
 .slide-text-lg{
     color: wheat;
@@ -111,9 +109,7 @@ canvas{
 #quote-header{
     color: white;
     font-family: Segoe Script;
-    font-size: small;
-
-
+    font-size: medium;
 }
 .card img{
     max-width: 6rem;
@@ -128,6 +124,9 @@ canvas{
 }
 .fst-italic{
     font-style: italic;
+}
+.highlight-text{
+    font-size: large;
 }
 
 @media (max-width: 575px) {
