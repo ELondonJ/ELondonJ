@@ -1,25 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Modak&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Bebas+Neue&family=Lato:wght@300;400&display=swap');
 #anima{
     display:block;
 }
 .navbar-nav{
     margin-left: auto;
     
+    
 }
 .logo{
     color: rgb(78, 15, 78);
-    font-family: 'Modak', cursive;
-    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.2rem;
+    text-decoration: none;
 }
 .navlink{
     font-family: 'Lato', sans-serif;
     color:whitesmoke;
     font-size: x-large;
     font-weight: 600;
+    text-decoration: none;
 }
-.logo:hover{
+nav .logo:hover{
     color: whitesmoke;
     text-decoration: none;
 }
@@ -31,14 +34,20 @@
     font-weight: bold;
 }
 #profile_pic{
-    width: 80%;
+    width: ;
     height: auto;
 }
+.accent_color{
+    background-color: rgb(103, 152, 105);
+}
+.accent_border{
+    border-color: rgb(103, 152, 105);
+    
+}
 .bio_text{
-    color: whitesmoke;
+    color: rgb(18, 17, 17);
     font-family: 'Lato', sans-serif;
     font-size: 1.1em;
-    font-weight: bold;
 }
 .sect_bord{
     border-width: 10px;
