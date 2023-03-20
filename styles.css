@@ -12,7 +12,7 @@
 .logo{
     color: rgb(78, 15, 78);
     font-family: 'Bebas Neue', cursive;
-    font-size: 3.2rem;
+    font-size: 3rem;
     text-decoration: none;
 }
 .navlink{
@@ -36,6 +36,12 @@ nav .logo:hover{
 #profile_pic{
     width: 80% ;
     height: auto;
+}
+#weatherapp{
+    margin-top: 0;
+    width: 100%;
+    float: right;
+    
 }
 .accent_color{
     background-color: rgb(103, 152, 105);
@@ -98,6 +104,9 @@ canvas{
     background-position-x: 100%;
     background-repeat: no-repeat; 
 }
+.car-item-4{
+    background: black ;
+}
 .slide-text-lg{
     color: wheat;
     opacity: .9;
@@ -107,7 +116,11 @@ canvas{
     left: 4rem;
 }
 .project-info{
-    max-width: 20rem
+    max-width: 22rem
+}
+.proj-i-weather{
+
+    
 }
 .contact-container{
     width: 75%;
@@ -155,6 +168,10 @@ canvas{
         max-width: 14rem;
         font-size: small;
     }
+    .proj-i-weather{
+
+        font-size: small;
+    }
     .car-item-2{
         background-size: cover;
         background-position-x: 70%;
@@ -184,6 +201,11 @@ canvas{
     img#profile_pic {
          width: 432px;
          height: 568px;
+    }
+    #weatherapp{
+        margin-top: 0;
+        width:100%;
+        height: auto;
     }
     .slide-text-lg{
         font-size: 6rem;
@@ -216,6 +238,10 @@ canvas{
         font-size: 10rem;
     }
     .project-info{
-        max-width: 30rem
+        max-width: 34rem
     }
+    #weatherapp{
+        margin-top: 10em;
+        width: 80%;
+}
 }

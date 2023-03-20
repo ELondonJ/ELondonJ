@@ -47,8 +47,8 @@
 
     <section class="bg-light py-3 text-light" id="about">
         <div class="container-fluid px-md-5 ">
-            <div class="d-lg-flex">
-                <div class="row flex-row-reverse m-auto p-1 bg-light">
+            <div class="d-flex">
+                <div class="row flex-sm-row-reverse m-auto p-1 bg-light">
                     <div class="col-lg-7 d-flex ">
                         <div class="m-auto">
                             <h1 class=" logo mb-2">London Joseph</h1>
@@ -169,28 +169,54 @@
     </section>
     <section class="bg-light p-sm-1 py-5 p-md-5 text-light" id="projects">
         <div class="container-fluid">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-interval="false"
+            <div id="carouselExampleFade" class="carousel slide carousel-fade py-3" data-bs-interval="false"
                 data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item car-item-1 d-flex active">
                         <span class="slide-text-lg ">Projects</span>
                     </div>
+                    <div class="carousel-item d-flex car-item-4 container-fluid">
+                        <div class="row no-gutters">
+                            <div class="col-10 p-2 d-flex mx-auto">
+                                <div class=" container m-1 proj-i-weather">
+                                    <h1 class="card-title mt-l-4 ">Weather Web Application</h1>
+                                    <p class="card-text ">Team project for Fullstack Web Dev class. 
+                                        React.js frontend, Node.js and Express backend.  Uses Google Places
+                                        API for address bar and OpenWeatherMap API for weather data.
+                                    </p>
+                                    <a href="https://github.com/ELondonJ/PortlandStateJavaWinter2021/tree/main/airline-android"
+                                        class="btn  btn-outline-success btn-md-sm ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github me-2" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                          </svg>GitHub</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                            <div class="col-md-10 col-lg-6 d-flex mx-auto ">
+                                <img src="./weatherApp.gif" alt="" class="img-fluid mb-5">
+
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="carousel-item car-item-2 container-fluid">
-                        <div class="row h-100">
+                        <div class="row h-100 overlay">
                             <div class="col col-md-9 d-flex ps-sm-0">
                                 <div class="container m-2 my-auto project-info m-md-auto">
                                     <h1 class="card-title`">Android App</h1>
-                                    <p class="card-text m-2">Android app that I built in the Advanced Java
+                                    <p class="card-text">Android app that I built in the Advanced Java
                                         Programming course. The task was to design an app that would simulate a flight
                                         search engine. The app was developed in android studio using the java
                                         programming language. The user interface is a home screen that includes a list
                                         view of clickable airline tabs, a flight search bar, and a button to add
                                         flights. </p>
                                     <a href="https://github.com/ELondonJ/PortlandStateJavaWinter2022/tree/main/airline-android"
-                                        class="btn  btn-success m-2 ">GitHub</a>
+                                        class="btn  btn-outline-success btn-md-sm ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github me-2" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                          </svg>GitHub</a>
                                 </div>
-                            </div>
-                            <div class="col-md">
                             </div>
                         </div>
                     </div>
@@ -199,15 +225,16 @@
                             <div class="col col-md-9 d-flex ps-sm-0">
                                 <div class="container m-2 my-auto project-info m-md-auto">
                                     <h1 class="card-title`">Personal Website</h1>
-                                    <p class="card-text m-2">Final project for Intro to Web Developement. The
+                                    <p class="card-text ">Final project for Intro to Web Developement. The
                                         website
                                         includes about, resume, contact and project sections. It was built
                                         with HTML, CSS, JavaScript and Boostrap </p>
                                     <a href="https://github.com/ELondonJ/PortlandStateJavaWinter2022/tree/main/airline-android"
-                                        class="btn  btn-success m-2 ">GitHub</a>
+                                        class="btn  btn-outline-success btn-md-sm ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github me-2" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                          </svg>GitHub</a>
                                 </div>
-                            </div>
-                            <div class="col-md">
                             </div>
                         </div>
                     </div>
@@ -246,7 +273,7 @@
                             <textarea class="form-control" placeholder="Leave a message here" id="contactMessage"
                                 name="message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send</button>
+                        <button type="submit" class="btn btn-primary btn-sm-sm">Send</button>
                     </form>
                 </div>
 
