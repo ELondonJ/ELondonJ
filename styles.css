@@ -1,247 +1,238 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Modak&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Bebas+Neue&family=Lato:wght@300;400&display=swap');
-#anima{
-    display:block;
+#anima {
+  display: block;
 }
-.navbar-nav{
-    margin-left: auto;
-    
-    
+.navbar-nav {
+  margin-left: auto;
 }
-.logo{
-    color: rgb(78, 15, 78);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 3rem;
-    text-decoration: none;
+.logo {
+  color: rgb(78, 15, 78);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  text-decoration: none;
 }
-.navlink{
-    font-family: 'Lato', sans-serif;
-    color:whitesmoke;
-    font-size: x-large;
-    font-weight: 600;
-    text-decoration: none;
+.navlink {
+  font-family: 'Lato', sans-serif;
+  color: whitesmoke;
+  font-size: x-large;
+  font-weight: 600;
+  text-decoration: none;
 }
-nav .logo:hover{
-    color: whitesmoke;
-    text-decoration: none;
+nav .logo:hover {
+  color: whitesmoke;
+  text-decoration: none;
 }
-.navlink:hover{
-    color: rgb(78, 15, 78);
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-    font-size: x-large;
-    font-weight: bold;
+.navlink:hover {
+  color: rgb(78, 15, 78);
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
 }
-#profile_pic{
-    width: 80% ;
-    height: auto;
+#profile_pic {
+  width: 80%;
+  height: auto;
 }
-#weatherapp{
-    margin-top: 0;
-    width: 100%;
-    float: right;
-    
+#weatherapp {
+  margin-top: 0;
+  width: 100%;
+  float: right;
 }
-.accent_color{
-    background-color: rgb(103, 152, 105);
+.accent_color {
+  background-color: rgb(103, 152, 105);
 }
-.accent_border{
-    border-color: rgb(103, 152, 105);
-    
+.accent_border {
+  border-color: rgb(103, 152, 105);
 }
-.bio_text{
-    color: rgb(18, 17, 17);
-    font-family: 'Lato', sans-serif;
-    font-size: 1.1em;
+.bio_text {
+  color: rgb(18, 17, 17);
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
 }
-.sect_bord{
-    border-width: 10px;
+.sect_bord {
+  border-width: 10px;
 }
-.canvas_body{
-    overflow: hidden;
-    width: 100%;
+.canvas_body {
+  overflow: hidden;
+  width: 100%;
 }
-canvas{
-    display: inline;
+canvas {
+  display: inline;
 }
-#anima_sm{
-    opacity: 1;
+#anima_sm {
+  opacity: 1;
 }
-.card ul{
-    list-style-type:disc;
-    padding: 1.5em
+.card ul {
+  list-style-type: disc;
+  padding: 1.5em;
 }
-.c1arousel-item{
-    background-color: transparent; 
-    max-height: 500px; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size:auto; 
-  }
-.carousel-item{
-    height:30rem;
-    background: black;
-    background-position: center;
-    background-size: cover;
+.c1arousel-item {
+  background-color: transparent;
+  max-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
-.car-item-1{
-    background-image: url("/projects-light.jpg");
-    background-position-y: 70%;
-
+.carousel-item {
+  height: 30rem;
+  background: black;
+  background-position: center;
+  background-size: cover;
 }
-.car-item-2{
-    background: black;
-    background-image: url("/app_pic2.png");
-    background-repeat: no-repeat; 
-    background-size: contain;
-    background-position: right 30%;
+.car-item-1 {
+  background-image: url('/projects-light.jpg');
+  background-position-y: 70%;
 }
-.car-item-3{
-    background: black ;
-    background-image: url("/website-prog.png");
-    background-size: contain;
-    background-position-x: 100%;
-    background-repeat: no-repeat; 
+.car-item-2 {
+  background: black;
+  background-image: url('/app_pic2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 30%;
 }
-.car-item-4{
-    background: black ;
+.car-item-3 {
+  background: black;
+  background-size: contain;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
 }
-.slide-text-lg{
-    color: wheat;
-    opacity: .9;
-    z-index: 1;
-    position: absolute;
-    bottom: 2rem;
-    left: 4rem;
+.car-item-4 {
+  background: black;
 }
-.project-info{
-    max-width: 22rem
+.slide-text-lg {
+  color: wheat;
+  opacity: 0.9;
+  z-index: 1;
+  position: absolute;
+  bottom: 2rem;
+  left: 4rem;
 }
-.proj-i-weather{
-
-    
+.project-info {
+  max-width: 22rem;
 }
-.contact-container{
-    width: 75%;
+.proj-i-weather {
 }
-#contactMessage{
-    height: 8rem;
+.contact-container {
+  width: 75%;
 }
-#quote-header{
-    color: white;
-    font-family: Segoe Script;
-    font-size: medium;
+#contactMessage {
+  height: 8rem;
 }
-.card img{
-    max-width: 6rem;
+#quote-header {
+  color: white;
+  font-family: Segoe Script;
+  font-size: medium;
 }
-.card li{
-    color: white;
-    font-size: large;
-    margin-bottom: .8rem;
+.card img {
+  max-width: 6rem;
 }
-.overlay{
-    color: white;
+.card li {
+  color: white;
+  font-size: large;
+  margin-bottom: 0.8rem;
 }
-.fst-italic{
-    font-style: italic;
+.overlay {
+  color: white;
 }
-.highlight-text{
-    font-size: large;
+.fst-italic {
+  font-style: italic;
+}
+.highlight-text {
+  font-size: large;
 }
 
 @media (max-width: 575px) {
-    #extra_bio{
-        display: none;
-    }
-    .bio_text{
-        font-size: medium;
-    }
-    .slide-text-lg{
-        font-size: 3.8rem;
-        left: 1rem;
-        bottom: 4rem;
-        opacity: 1;
-    }
-    .project-info{
-        max-width: 14rem;
-        font-size: small;
-    }
-    .proj-i-weather{
-
-        font-size: small;
-    }
-    .car-item-2{
-        background-size: cover;
-        background-position-x: 70%;
-    }
-    .contact-container{
-        width: 95%;
-    }
-    .navbar-toggler-icon{
-        background-color: white;
-    }
-    .card img{
-        max-width: 6rem;
-    }
-    .car-item-3{
-        background-size: cover;
-        background-position-x: 85%;
-    }
-    .overlay{
-        color: white;
-        background-color: rgba(0, 0, 0, 0.6);
-    }
+  #extra_bio {
+    display: none;
+  }
+  .bio_text {
+    font-size: medium;
+  }
+  .slide-text-lg {
+    font-size: 3.8rem;
+    left: 1rem;
+    bottom: 4rem;
+    opacity: 1;
+  }
+  .project-info {
+    max-width: 14rem;
+    font-size: small;
+  }
+  .proj-i-weather {
+    font-size: small;
+  }
+  .car-item-2 {
+    background-size: cover;
+    background-position-x: 70%;
+  }
+  .contact-container {
+    width: 95%;
+  }
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  .card img {
+    max-width: 6rem;
+  }
+  .car-item-3 {
+    background-size: cover;
+    background-position-x: 85%;
+  }
+  .overlay {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
 }
-@media (min-width: 576px) and (max-width: 991px)  {
-    #anima_sm{
-        display: none !important;
-    }
-    img#profile_pic {
-         width: 432px;
-         height: 568px;
-    }
-    #weatherapp{
-        margin-top: 0;
-        width:100%;
-        height: auto;
-    }
-    .slide-text-lg{
-        font-size: 6rem;
-        opacity: 1;
-    }
-    .contact-container{
-        width: 95%;
-    }
-    .card img{
-        max-width: 10rem;
-    }
-    .car-item-3{
-        background-size: cover;
-        background-position-x: 68%;
-    }
-    .card li{
+@media (min-width: 576px) and (max-width: 991px) {
+  #anima_sm {
+    display: none !important;
+  }
+  img#profile_pic {
+    width: 432px;
+    height: 568px;
+  }
+  #weatherapp {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+  }
+  .slide-text-lg {
+    font-size: 6rem;
+    opacity: 1;
+  }
+  .contact-container {
+    width: 95%;
+  }
+  .card img {
+    max-width: 10rem;
+  }
+  .car-item-3 {
+    background-size: cover;
+    background-position-x: 68%;
+  }
+  .card li {
     font-size: x-large;
-}
+  }
 }
 @media (min-width: 992px) {
-    img#profile_pic {
+  img#profile_pic {
     height: 80%;
     width: auto;
-    }
-    .flex-item{
-     width: 90%;
-     height: 30rem;
-    }
-    .slide-text-lg{
-        font-size: 10rem;
-    }
-    .project-info{
-        max-width: 34rem
-    }
-    #weatherapp{
-        margin-top: 10em;
-        width: 80%;
-}
+  }
+  .flex-item {
+    width: 90%;
+    height: 30rem;
+  }
+  .slide-text-lg {
+    font-size: 10rem;
+  }
+  .project-info {
+    max-width: 34rem;
+  }
+  #weatherapp {
+    margin-top: 10em;
+    width: 80%;
+  }
 }
