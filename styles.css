@@ -235,4 +235,27 @@ canvas {
     margin-top: 10em;
     width: 80%;
   }
+  .outter-margin {
+    background: white;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .outter-margin {
+    background: white;
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+}
+@media (min-width: 1400px) {
+  .outter-margin {
+    background: white;
+    padding-right: 12rem;
+    padding-left: 12rem;
+  }
+  #profile_pic {
+    margin: 2rem;
+    height: auto;
+  }
 }
