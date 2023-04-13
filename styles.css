@@ -244,18 +244,14 @@ canvas {
 @media (min-width: 1200px) {
   .outter-margin {
     background: white;
-    padding-right: 6rem;
-    padding-left: 6rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   .outter-margin {
     background: white;
     padding-right: 12rem;
     padding-left: 12rem;
-  }
-  #profile_pic {
-    margin: 2rem;
-    height: auto;
   }
 }
