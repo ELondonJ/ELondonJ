@@ -1,21 +1,21 @@
 window.onresize = function () {
   if (window.innerWidth < 576) {
-    let section = document.getElementById("anima");
+    let section = document.getElementById('anima');
     section.remove();
   } else {
     location.reload();
     l;
   }
 };
-console.log("hello");
-const canvas = document.getElementById("canvas_1");
+console.log('hello');
+const canvas = document.getElementById('canvas_1');
 console.log(canvas);
-const ctx = canvas.getContext("2d");
-canvas.style.width = "100%";
-canvas.style.height = "100%";
+const ctx = canvas.getContext('2d');
+canvas.style.width = '100%';
+canvas.style.height = '100%';
 canvas.width = window.innerWidth;
 canvas.height = canvas.width / 3;
-let textSize = "1.9em";
+let textSize = '1.9em';
 let particleArray = [];
 let xOffSet = 0;
 let yOffset = 88;
@@ -27,7 +27,7 @@ const mouse = {
   radius: rad,
 };
 
-window.addEventListener("mousemove", (event) => {
+window.addEventListener('mousemove', (event) => {
   mouse.x = event.x - xOffSet;
   mouse.y = event.y - yOffset;
   console.log(mouse.x, mouse.y);
@@ -35,9 +35,9 @@ window.addEventListener("mousemove", (event) => {
 
 $(window).resize(function () {});
 
-ctx.fillStyle = "white";
-ctx.font = "2.6vw Verdana";
-ctx.fillText("Welcome ", 0, canvas.width / 40);
+ctx.fillStyle = 'white';
+ctx.font = '2.6vw Verdana';
+ctx.fillText('Welcome ', 0, canvas.width / 40);
 const testCoords = ctx.getImageData(0, 0, 240, 100);
 
 class Particle {
@@ -48,7 +48,7 @@ class Particle {
     this.baseX = this.x;
     this.baseY = this.y;
     this.density = Math.random() * 40 + 5;
-    this.color = "white";
+    this.color = 'white';
     this.color2 = this.color;
   }
   draw() {
@@ -73,7 +73,7 @@ class Particle {
       this.y -= directionY;
       let tone = Math.random() * 230 + 5;
       let tone2 = Math.random() * 230 + 5;
-      this.color2 = "rgb(" + tone + ",0," + tone + ",0.7)";
+      this.color2 = 'rgb(' + tone + ',0,' + tone + ',0.7)';
       this.size = 4;
     } else {
       if (this.x !== this.baseX) {
@@ -126,7 +126,7 @@ function connect() {
       let dist = Math.sqrt(dx * dx + dy * dy);
 
       if (dist < 8) {
-        ctx.strokeStyle = "green";
+        ctx.strokeStyle = 'green';
         ctx.lineWidth = 2;
         ctx.beginPath();
         ctx.moveTo(particleArray[a].x, particleArray[a].y);

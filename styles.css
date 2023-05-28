@@ -82,12 +82,12 @@ canvas {
   background-size: cover;
 }
 .car-item-1 {
-  background-image: url('/projects-light.jpg');
+  background-image: url('/assets/projects-light.jpg');
   background-position-y: 70%;
 }
 .car-item-2 {
   background: black;
-  background-image: url('/app_pic2.png');
+  background-image: url('assets/app_pic2.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right 30%;
@@ -142,7 +142,14 @@ canvas {
 .highlight-text {
   font-size: large;
 }
-
+.resume * {
+  text-decoration: none;
+}
+.resume *:hover {
+  /* Hover styles */
+  color: rgb(103, 152, 105);
+  font-weight: bold;
+}
 @media (max-width: 575px) {
   #extra_bio {
     display: none;
